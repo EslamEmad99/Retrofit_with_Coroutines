@@ -1,5 +1,6 @@
-package eslam.emad.retrofitcoroutines
+package eslam.emad.retrofitcoroutines.api
 
+import eslam.emad.retrofitcoroutines.model.Post
 import retrofit2.Response
 import retrofit2.Retrofit
 import retrofit2.converter.gson.GsonConverterFactory

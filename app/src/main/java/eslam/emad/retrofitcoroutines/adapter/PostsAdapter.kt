@@ -1,10 +1,12 @@
-package eslam.emad.retrofitcoroutines
+package eslam.emad.retrofitcoroutines.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.databinding.DataBindingUtil
 import androidx.recyclerview.widget.RecyclerView
+import eslam.emad.retrofitcoroutines.R
 import eslam.emad.retrofitcoroutines.databinding.ExamplePostBinding
+import eslam.emad.retrofitcoroutines.model.Post
 
 class PostsAdapter(private var myList: List<Post>) : RecyclerView.Adapter<PostsAdapter.MyViewHolder>() {
 

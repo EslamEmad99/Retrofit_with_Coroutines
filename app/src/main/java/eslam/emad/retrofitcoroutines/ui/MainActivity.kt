@@ -1,10 +1,12 @@
-package eslam.emad.retrofitcoroutines
+package eslam.emad.retrofitcoroutines.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import androidx.databinding.DataBindingUtil
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.LinearLayoutManager
+import eslam.emad.retrofitcoroutines.adapter.PostsAdapter
+import eslam.emad.retrofitcoroutines.R
 import eslam.emad.retrofitcoroutines.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {

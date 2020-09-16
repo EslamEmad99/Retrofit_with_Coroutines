@@ -1,4 +1,4 @@
-package eslam.emad.retrofitcoroutines
+package eslam.emad.retrofitcoroutines.model
 
 data class Post(
     val body: String,
